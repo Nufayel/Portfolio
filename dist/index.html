@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/dist/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body class="bg-gradient-to-r from-rose-100 to-teal-100">
+    <header class="bg-gradient-to-r from-gray-100 to-gray-300 fixed z-50 shadow-2xl inset-x-0 top-0">
+        <nav class="flex justify-between items-center">
+            <div>
+                <h2 class="ml-5 font-extrabold text-lg text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-400">Nufayel.dev</h2>
+            </div>
+            <div>
+                <ul class="py-4 font-bold flex items-center gap-[2px]">
+                    <li class="mx-2 bg-white rounded-full transition-all duration-500 hover:bg-gradient-to-r from-indigo-300 to-purple-400 hover:text-white hover:shadow-2xl hover:-translate-y-2">
+                        <a href="#home"> &#9750; Home </a>
+                    </li>
+                    <li class="mx-2 bg-white rounded-full transition-all duration-500 hover:bg-gradient-to-r from-indigo-300 to-purple-400 hover:text-white hover:shadow-2xl hover:-translate-y-2">
+                        <a href="#"> &#10063; Projects </a>
+                    </li>
+                    <li class="mx-2 bg-white rounded-full transition-all duration-500 hover:bg-gradient-to-r from-indigo-300 to-purple-400 hover:text-white hover:shadow-2xl hover:-translate-y-2">
+                        <a href="#about"> &#9762; About </a>
+                    </li>
+                    <li class="mx-2 bg-white rounded-full transition-all duration-500 hover:bg-gradient-to-r from-indigo-300 to-purple-400 hover:text-white hover:shadow-2xl hover:-translate-y-2">
+                        <a href="#contact"> &#9993; Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="snap-y snap-mandatory overflow-scroll h-[100vh]">
+        <section class="ml-6 flex flex-col justify-center items-center min-h-[100vh] snap-start relative">
+            <div class="mt-[40px] gap-20 flex justify-center items-center relative" id="home">
+                <div class="w-[34rem]">
+                    <h1 class="text-[60px] text-[#2D2E32] font-extrabold leading-none">Front-End Developer &#128075;</h1>
+                    <p class="w-[33rem] pt-5">
+                        Hi, I'm Muhammed Nufayel. A passionate Front-End Developer from Dhaka, Bangladesh. &#128205;
+                    </p>
+        
+                    <div class="flex px-0 py-3 gap-2">
+                        <a href="#">
+                            <i class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 transition-all hover:-translate-y-2 p-0 text-3xl fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 transition-all hover:-translate-y-2 p-0 text-3xl fa-brands fa-square-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-[25rem] h-[25rem] rounded-full relative overflow-hidden before:content-[''] before:absolute before:bg-[conic-gradient(var(--tw-gradient-stops))] from-sky-500 via-indigo-500 to-transparent before:w-[400px] before:h-[400px] before:animate-fullspin after:content['Animation'] after:w-[390px] after:h-[390px]  after:absolute after:rounded-full after:top-[30px] after:right-[30px] after:z-1">
+                    <div class="absolute rounded-full z-3 overflow-hidden">
+                        <img class="w-[100%] rounded-full p-0 object-cover" src="/dist/images/profile-picture.jpg" alt="display-picture">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mt-[40px] flex justify-center items-center">
+                <div class="flex-none border-r-2">
+                    <h3>Tech Skills</h3>
+                </div>
+                <div class="flex justify-around items-center w-[700px]">
+                <ul class="ml-10 flex flex-wrap w-[700px] gap-[2.5rem]">
+                    <li class="flex justify-center items-center shadow-[0_25px_100px_0px_rgb(0,0,0,0.3)] rounded-full">
+                        <img class="w-[3.5rem] object-cover" src="/dist/images/html.svg" alt="html">
+                    </li>
+                    <li class="flex justify-center items-center shadow-2xl rounded-full">
+                        <img class="w-[3.4rem] object-cover" src="/dist/images/css.svg" alt="css">
+                    </li>
+                    <li class="flex justify-center items-center shadow-2xl rounded-full">
+                        <img class="w-[3.4rem] object-cover" src="/dist/images/javascript.svg" alt="javascript">
+                    </li>
+                    <li class="flex justify-center items-center shadow-2xl rounded-full">
+                        <img class="w-[3.4rem] object-cover" src="/dist/images/tailwind.svg" alt="tailwind">
+                    </li>
+                    <li class="flex justify-center items-center shadow-2xl rounded-full">
+                        <img class="w-[3.4rem] object-cover" src="/dist/images/wordpress.webp" alt="wordpress">
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section class="min-h-[100vh] snap-center flex justify-center items-center gap-12" id="about">
+                <div class="flex flex-col items-center justify-around">
+                    <img class="rounded-[1.7rem] w-[41rem] bg-cover" src="/dist/images/about-me.jpg" alt="me">
+                </div>
+                <div class="w-96 h-22 flex flex-col justify-center items-start gap-0">
+                    <div>
+                        <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-400">About me</h3>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">A dedicated Front-end Developer from Dhaka Bangladesh &#128205;.</h4>
+                    </div>
+                    <div>
+                        <p class="text-[18px] text-[#767676] font-light leading-[22px]">
+                            As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section class="min-h-[100vh] snap-center flex flex-col justify-center items-center gap-12" id="contact">
+            <div>
+                <h5 class="text-4xl underline decoration-double underline-offset-8 decoration-inherit font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-400 pb-[100px]">Contact Me</h5>
+                <h6 class="text-2xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">Don't be shy! Hit me up! &#128071;</h6>
+            </div>
+            <div class="flex justify-center items-center gap-12">
+                <div class="flex justify-center items-center gap-5">
+                    <div>
+                        <i class="fa-solid fa-map-location-dot text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-400"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">Location</h6>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-5">
+                    <div>
+                        <i class="fa-solid fa-envelope-open-text text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-400"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">Mail</h6>
+                        <p>nufayel.scss@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

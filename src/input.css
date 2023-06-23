@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    span,
+    input,
+    textarea,
+    button {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5px;
+        padding-left: 5px;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
+}
